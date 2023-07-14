@@ -1,0 +1,73 @@
+body{
+    font-family: 'Radley', Times, serif;
+    width: 100%;
+    /* display:block; */
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgb(238, 177, 39, 0.1), rgb(238, 177, 39, 0.1)) ;
+
+}
+body::-webkit-scrollbar{
+    width: 0 !important;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    justify-content: flex;
+    position: relative;
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1.5%;
+}
+.logo{
+    margin-right: 50%;
+}
+.logo a{
+    font-family: radley;
+    font-size: 1.5em;
+    color: #eeb127;
+}
+.hero-nav{
+    width: 100vw;
+}
+li{
+    list-style: none;
+}
+nav ul{
+    flex-direction: left;
+    flex: 1;
+    text-align: center;
+    margin: 0.5em;
+}
+nav ul li{
+    display: inline;
+    margin: 3vw;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+nav ul li a{
+    color: #eeb127;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 350ms;
+}
+nav ul li a:hover{
+    background-color: #eeb127;
+    color: white;
+}
+span{
+    color: #eeb127;
+}
+.landingContent{
+    font-size: 1.8em;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.landingContent h1{
+    padding: 1%;
+}
