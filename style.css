@@ -1,10 +1,7 @@
-* {
-    overflow-x: hidden;
-}
 body{
     font-family: 'Radley', Times, serif;
     width: 100%;
-    /* display:block; */
+    display:block;
     margin: 0;
     overflow-x: hidden;
     background-image: linear-gradient(rgb(238, 177, 39, 0.1), rgb(238, 177, 39, 0.1)) ;
@@ -66,6 +63,7 @@ span{
     color: #eeb127;
 }
 .landingContent{
+    box-sizing: border-box;
     font-size: 1.8em;
     margin-top: 15%;
     text-align: center;
