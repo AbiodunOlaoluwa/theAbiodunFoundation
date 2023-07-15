@@ -21,7 +21,7 @@ nav{
     margin: 1.5%;
 }
 .logo{
-    margin-right: 35em;
+    margin-right: 30em;
 }
 .logo a{
     font-family: radley;
@@ -57,14 +57,12 @@ nav ul li a:hover{
     background-color: #eeb127;
     color: white;
 }
-/* .herovideocontainer{
-    width: 50%;
-} */
 .herovideo{
     top: 0;
     right: 0;
     bottom: 0;
     width: 50%;
+    object-fit: cover;
 }
 span{
     color: #eeb127;
