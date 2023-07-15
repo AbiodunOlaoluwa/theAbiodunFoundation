@@ -4,8 +4,6 @@ body{
     display:block;
     margin: 0;
     overflow-x: hidden;
-    background-image: linear-gradient(rgb(238, 177, 39, 0.1), rgb(238, 177, 39, 0.1)) ;
-
 }
 body::-webkit-scrollbar{
     width: 0 !important;
@@ -23,7 +21,7 @@ nav{
     margin: 1.5%;
 }
 .logo{
-    margin-right: 50%;
+    margin-right: 35em;
 }
 .logo a{
     font-family: radley;
@@ -53,21 +51,32 @@ nav ul li a{
     color: #eeb127;
     border-radius: 20px;
     padding: 0.3125em;
-    transition: 350ms;
+    transition: 300ms;
 }
 nav ul li a:hover{
     background-color: #eeb127;
     color: white;
 }
+/* .herovideocontainer{
+    width: 50%;
+} */
+.herovideo{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
 span{
     color: #eeb127;
 }
 .landingContent{
+    display: flex;
+    float: left;
     box-sizing: border-box;
     font-size: 1.8em;
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 .landingContent h1{
     padding: 1%;
