@@ -57,6 +57,14 @@ nav ul li a:hover{
     background-color: #eeb127;
     color: white;
 }
+.joinus{
+    background-color: black;
+    border-radius: 20px;
+}
+.joinus:hover{
+    background-color:#eeb127;
+    color: white;
+}
 .herovideo{
     top: 0;
     right: 0;
