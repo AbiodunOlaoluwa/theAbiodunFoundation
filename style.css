@@ -1,12 +1,19 @@
 body{
     font-family: 'Radley', Times, serif;
-    width: 100%;
+    width: 100vw;
     display:block;
     margin: 0;
     overflow-x: hidden;
 }
 body::-webkit-scrollbar{
     width: 0 !important;
+}
+.backdrop{
+    top: 0;
+    position: fixed;
+    image-rendering: auto; 
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 a{
     text-decoration: none;
@@ -21,7 +28,14 @@ nav{
     margin: 1.5%;
 }
 .logo{
+    margin-left: 3em;
     margin-right: 30em;
+}
+.logo h2{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius:20px
 }
 .logo a{
     font-family: radley;
@@ -71,6 +85,8 @@ nav ul li a:hover{
     bottom: 0;
     width: 50%;
     object-fit: cover;
+    border-radius: 20px;
+    margin-right: 1em;
 }
 span{
     color: #eeb127;
@@ -90,9 +106,68 @@ span{
 .omheader{
     width: 100vw;
     text-align: center;
+    margin: 3em;
 }
-.maincopy{
-    font-size: 1.2em;
+.firstcopy{
+    /* margin: 2em; */
+    display: flexbox;
+    font-size: 1.3em;
     text-align: center;
+    line-height: 1.7em;
     padding: 0 1.5em 1.5em 1.5em;
+}
+.firstparagraph{
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    height: auto;
+    width: 50%;
+    margin: 2em;
+}
+.africanschoolchildren img{
+    top: 0;
+    margin-left: 2em;
+    /* margin-bottom: 2em; */
+    border-radius: 20px;
+    height: 90%;
+    width: 40%;
+    display: block;
+    float: left;
+}
+.secondcopy{
+    box-sizing: border-box;
+    padding-right: 2em;
+    margin-top: 3em;
+    float: left;
+    width: 100%;
+    display: flexbox;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+.secondparagraph{
+    position: relative;
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    height: auto;
+    width: 50%;
+    padding: 2em;
+    margin: 2em;
+    margin-top: 2em;
+}
+.schoolpic img{
+    top: 0;
+    margin-right: 2em;
+    margin-left: 1em;
+    border-radius: 20px;
+    height: 90%;
+    width: 40%;
+    display: inline;
+    float: right;
 }
