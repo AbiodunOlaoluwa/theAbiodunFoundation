@@ -32,7 +32,6 @@ nav{
     margin-right: 30em;
 }
 .logo h2{
-    background-color: rgba(255, 255, 255, 0.3);
     padding-left: 1em;
     padding-right: 1em;
     border-radius:20px
@@ -43,6 +42,8 @@ nav{
     color: #eeb127;
 }
 .hero-nav{
+    background-color: rgba(255, 255, 255, 0.98);
+    position: fixed;
     width: 100vw;
 }
 li{
@@ -96,12 +97,15 @@ span{
     float: left;
     box-sizing: border-box;
     font-size: 1.8em;
-    margin-top: 10%;
+    margin-top: 7em;
     text-align: center;
     margin-bottom: 10%;
 }
 .landingContent h1{
     padding: 1%;
+}
+.maincontainer{
+    display: block;
 }
 .omheader{
     width: 100vw;
@@ -149,7 +153,6 @@ span{
     padding: 0 1.5em 1.5em 1.5em;
 }
 .secondparagraph{
-    position: relative;
     box-sizing: border-box;
     display: inline;
     text-align: center;
@@ -170,4 +173,94 @@ span{
     width: 40%;
     display: inline;
     float: right;
+}
+.thirdcopy{
+    display: flexbox;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+.thirdparagraph{
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    height: auto;
+    width: 50%;
+    margin: 2em;
+    margin-top: 4em;
+}
+.scholarshippic img{
+    top: 0;
+    margin-left: 2em;
+    /* margin-bottom: 2em; */
+    border-radius: 20px;
+    height: 90%;
+    width: 40%;
+    display: block;
+    float: left;
+}
+.fourthcopy{
+    box-sizing: border-box;
+    padding-right: 2em;
+    margin-top: 3em;
+    float: left;
+    width: 100%;
+    display: flexbox;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+.fourthparagraph{
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    height: auto;
+    width: 40%;
+    padding: 2em;
+    margin: 2em;
+    margin-top: 2em;
+}
+.teacherpic img{
+    top: 0;
+    margin-right: 2em;
+    margin-left: 1em;
+    border-radius: 20px;
+    height: 40%;
+    width: 50%;
+    display: inline;
+    float: right;
+}
+.fifthcopy{
+    display: flexbox;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+.fifthparagraph{
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    height: auto;
+    width: 50%;
+    margin: 2em;
+    margin-top: 3em;
+}
+.stempic img{
+    top: 0;
+    margin-left: 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    height: 90%;
+    width: 40%;
+    display: block;
+    float: left;
 }
