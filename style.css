@@ -42,6 +42,8 @@ nav{
     color: #eeb127;
 }
 .hero-nav{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     align-self: center;
     align-content: center;
     background-color: rgba(255, 255, 255, 0.98);
@@ -265,4 +267,36 @@ span{
     width: 40%;
     display: block;
     float: left;
+}
+.sixthcopy{
+    background-color: rgba(238, 177, 39, 0.5);
+    box-sizing: border-box;
+    padding-right: 2em;
+    margin-top: 3em;
+    float: left;
+    width: 100%;
+    display: flexbox;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+.sixthparagraph{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    height: auto;
+    width: 50%;
+    padding: 2em;
+    margin: 2em;
+    margin-top: 2em;
+}
+.joinusbutton{
+    text-align: center;
+    display: block;
+    float: right;
 }
